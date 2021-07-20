@@ -1,0 +1,866 @@
+@charset "utf-8";
+html{
+	font:12px '宋体';
+}
+
+a{
+	color: #000;
+}
+.top{
+	background-color:#F7F7F7;
+	height: 26px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.top_page{
+	width: 970px;
+	height: 26px;
+	margin: 0 auto;
+}
+.top_page_l{
+	line-height: 26px;
+}
+.top_page_r ul li{
+	float: left;
+	padding-right: 10px;
+	line-height: 26px;
+}
+
+.logo{
+	width: 970px;
+	height: 98px;
+	margin: 0 auto;
+}
+
+.logo_l{
+	width: 60px;
+	height: 60px;
+	background: red;
+	background: url(../image/logo.png) ;
+	margin: 24px 0 19px 9px;
+	text-indent: -1000em;
+}
+.logo_r{
+	width: 530px;
+	height: 42px;
+	border:1px solid #C9C9C9;
+	margin-top: 43px;
+}
+
+.logo_r_content{
+	margin: 5px 5px 5px 4px;
+
+}
+.logo_r_searche{
+	width: 418px;
+	height: 28px
+}
+
+.logo_r_btn{
+	width: 99px;
+	height: 30px;
+	color: white;
+	background-color: #2F70D0
+}
+.nav{
+	width: 970px;
+	height: 25px;
+	margin: 0 auto;
+	border-bottom: 2px solid #0266A3;
+}
+
+.nav li{
+	float: left;
+	line-height: 25px;
+	padding: 0 15px 0 15px;
+	font-size:  14px;
+	font-weight: bold;
+
+}
+
+.nav li a{
+	color: #0266A3;
+}
+
+.nav li:hover{
+	background-color: #0266A3;
+}
+
+.nav li:hover a{
+	color: white;
+}
+
+.banner{
+	width: 970px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 10px; 
+}
+
+.subNav{
+	width: 200px;
+	height: 210px;
+	margin-right:11px; 
+}
+.ad{
+	width: 520px;
+	height: 210px;
+	background-color: yellow;
+}
+
+.message{
+	width: 230px;
+	height: 210px;
+}
+.subNav h2{
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 20px; 
+	
+	background-color: #0266A3;
+	color: white;
+}
+
+.subNav ul{
+	background:#EBF0F6;
+	height: 180px;
+}
+
+.subNav s{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background:url(../image/sprite.png); 
+	vertical-align: middle;
+}
+
+.subNav li{
+	font-size: 15px;
+	padding-top: 11px;
+	margin-left: 9px;
+}
+
+.subNav li a{
+	padding-left:15px;
+}
+
+.message_top{
+	height: 95px;
+	border:1px solid #DDDDDD;
+	background:#F7FAFF;
+	margin-bottom: 21px;
+}
+
+.message_top s{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background:url(../image/dazhong.png);
+	margin:20px 10px 0 10px;
+}
+
+.message_top .fw{
+	padding: 7px 0 0 18px;
+	font-weight: bold;
+}
+
+.message_top .cheap{
+	margin-top: 25px;
+}
+
+.message_bottom{
+	height: 92px;
+	background:#F7F7F7;
+}
+
+.message_bottom .findMessage{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 11px;
+}
+
+.message_bottom .phone{
+	margin-top: 10px;
+	text-align: center;
+	color: #3F9CE0;
+}
+
+.message_bottom .phone s{
+	display: inline-block;
+	width:13px;
+	height: 13px;
+	background:url(../image/phone.png); 
+	vertical-align: middle;
+}
+
+.message_bottom .btn{
+	width: 23px;
+	height: 23px;
+	background: url(../image/qq.png);
+	margin-top: 9px;
+	margin-left: 100px;
+}
+
+.material{
+	width: 950px;
+	height: 34px;
+	border-top: 2px solid #C3D7E4;
+	margin: 0 auto;
+	margin-top: 14px;
+	line-height: 34px;
+	background:#ECF1F7;
+	font-weight: bold;
+	padding-left:20px;
+}
+
+.product{
+	width: 970px;
+	height: 345px;
+	margin:0 auto;
+	margin-top: 12px;
+}
+
+.product .product_l{
+	width: 738px;
+	height: 345px;
+	border:1px solid #D8D8D8;
+}
+
+.product .product_l_top{
+	height: 155px;
+	width: 712px;
+	padding:17px 0 0 26px;
+}
+.product .p_l_t_product1{
+	width: 350px;
+	height: 146px;
+}
+
+.product  .buy{
+	width: 99px;
+	height: 146px;
+}
+
+
+.product .buy .img{
+	height: 100px;	
+	border: 1px solid #CACACA;
+}
+
+.product .buy .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background:url(../image/qq.png);
+	margin:10px 4px 0 3px;
+}
+
+.product .buy .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 10px;
+}
+
+.product .explain{
+	width: 250px;
+	height: 143px;
+	padding-top:15px;
+}
+
+.product  .explain .goodWife{
+	font-size: 14px;
+	padding: 0 0 0 10px;
+}
+
+.product  .explain .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.product .explain .money{
+	padding:23px 0 0 11px;
+}
+
+.product .explain .money span{
+	color: red;
+}
+.product .explain .money s{
+	text-decoration: line-through;
+}
+.product .explain .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+
+.product .p_l_t_product2{
+	width: 350px;
+	height: 146px;
+}
+
+.product  .buy1{
+	width: 99px;
+	height: 146px;
+}
+
+
+.product .buy1 .img{
+	height: 100px;	
+	border: 1px solid #CACACA;
+}
+
+.product .buy1 .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background:url(../image/logo.png);
+	margin:10px 4px 0 3px;
+}
+
+.product .buy1 .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 10px;
+}
+
+.product .explain1{
+	width: 250px;
+	height: 143px;
+	padding-top:15px;
+}
+
+.product  .explain1 .goodWife{
+	font-size: 14px;
+	padding: 0 0 0 10px;
+}
+
+.product  .explain1 .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.product .explain1 .money{
+	padding:23px 0 0 11px;
+}
+
+.product .explain1 .money span{
+	color: red;
+}
+.product .explain1 .money s{
+	text-decoration: line-through;
+}
+.product .explain1 .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+.product .product_r{
+	width: 230px;
+	height: 345px;
+	background:green ;
+}
+
+.product .product_l_Button{
+	height: 155px;
+	width: 712px;
+	padding:17px 0 0 26px;
+}
+.product .p_l_t_productz{
+	width: 350px;
+	height: 146px;
+}
+
+.product  .buyz{
+	width: 99px;
+	height: 146px;
+}
+
+
+.product .buyz .img{
+	height: 100px;	
+	border: 1px solid #CACACA;
+}
+
+.product .buyz .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background:url(../image/sprite.png);
+	margin:10px 4px 0 3px;
+}
+
+.product .buyz .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 10px;
+}
+
+.product .explainz{
+	width: 250px;
+	height: 143px;
+	padding-top:15px;
+}
+
+.product  .explainz .goodWife{
+	font-size: 14px;
+	padding: 0 0 0 10px;
+}
+
+.product  .explainz .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.product .explainz .money{
+	padding:23px 0 0 11px;
+}
+
+.product .explainz .money span{
+	color: red;
+}
+.product .explainz .money s{
+	text-decoration: line-through;
+}
+.product .explainz .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+
+.product .p_l_t_productr{
+	width: 350px;
+	height: 146px;
+}
+
+.product  .buyr{
+	width: 99px;
+	height: 146px;
+}
+
+
+.product .buyr .img{
+	height: 100px;	
+	border: 1px solid #CACACA;
+}
+
+.product .buyr .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background:url(../image/dazhong.png);
+	margin:10px 4px 0 3px;
+}
+
+.product .buyr .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 10px;
+}
+
+.product .explainr{
+	width: 250px;
+	height: 143px;
+	padding-top:15px;
+}
+
+.product  .explainr .goodWife{
+	font-size: 14px;
+	padding: 0 0 0 10px;
+}
+
+.product  .explainr .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.product .explainr .money{
+	padding:23px 0 0 11px;
+}
+
+.product .explainr .money span{
+	color: red;
+}
+.product .explainr .money s{
+	text-decoration: line-through;
+}
+.product .explainr .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+.product .product_r{
+	width: 220px;
+	height: 345px;
+	background:#FFFFFF;
+	border:1px solid #E0E6F0;
+}
+
+.product_l_line{
+	margin:0 4px 0 4px;
+	border-top: 1px solid #CCC;
+}
+
+.product_r h2{
+	height:28px;
+	line-height: 28px;
+	padding-left:15px;
+	border-bottom: 1px solid #E0E6F0;
+}
+.product_r ul{
+	padding-top: 11px;
+}
+.product_r li{
+	line-height: 23px;
+	padding-left:26px;
+}
+
+
+
+
+
+
+
+.materialc{
+	width: 950px;
+	height: 34px;
+	border-top: 2px solid #C3D7E4;
+	margin: 0 auto;
+	margin-top: 14px;
+	line-height: 34px;
+	background:#ECF1F7;
+	font-weight: bold;
+	padding-left:20px;
+}
+
+.productc{
+	width: 970px;
+	height: 345px;
+	margin:0 auto;
+	margin-top: 12px;
+}
+
+.productc .product_l{
+	width: 738px;
+	height: 345px;
+	border:1px solid #D8D8D8;
+}
+
+.productc .product_l_top{
+	height: 155px;
+	width: 712px;
+	padding:17px 0 0 26px;
+}
+.productc .p_l_t_product1{
+	width: 350px;
+	height: 146px;
+}
+
+.productc  .buy{
+	width: 99px;
+	height: 146px;
+}
+
+
+.productc .buy .img{
+	height: 100px;	
+	border: 1px solid #CACACA;
+}
+
+.productc .buy .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background:url(../image/qq.png);
+	margin:10px 4px 0 3px;
+}
+
+.productc .buy .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 10px;
+}
+
+.productc .explain{
+	width: 250px;
+	height: 143px;
+	padding-top:15px;
+}
+
+.productc  .explain .goodWife{
+	font-size: 14px;
+	padding: 0 0 0 10px;
+}
+
+.productc  .explain .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.productc .explain .money{
+	padding:23px 0 0 11px;
+}
+
+.productc .explain .money span{
+	color: red;
+}
+.productc .explain .money s{
+	text-decoration: line-through;
+}
+.productc .explain .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+
+.productc .p_l_t_product2{
+	width: 350px;
+	height: 146px;
+}
+
+.productc  .buy1{
+	width: 99px;
+	height: 146px;
+}
+
+
+.productc .buy1 .img{
+	height: 100px;	
+	border: 1px solid #CACACA;
+}
+
+.productc .buy1 .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background:url(../image/logo.png);
+	margin:10px 4px 0 3px;
+}
+
+.productc .buy1 .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 10px;
+}
+
+.productc .explain1{
+	width: 250px;
+	height: 143px;
+	padding-top:15px;
+}
+
+.productc  .explain1 .goodWife{
+	font-size: 14px;
+	padding: 0 0 0 10px;
+}
+
+.productc  .explain1 .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.productc .explain1 .money{
+	padding:23px 0 0 11px;
+}
+
+.productc .explain1 .money span{
+	color: red;
+}
+.productc .explain1 .money s{
+	text-decoration: line-through;
+}
+.productc .explain1 .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+.productc .product_r{
+	width: 230px;
+	height: 345px;
+	background:green ;
+}
+
+.productc .product_l_Button{
+	height: 155px;
+	width: 712px;
+	padding:17px 0 0 26px;
+}
+.productc .p_l_t_productz{
+	width: 350px;
+	height: 146px;
+}
+
+.productc  .buyz{
+	width: 99px;
+	height: 146px;
+}
+
+
+.productc .buyz .img{
+	height: 100px;	
+	border: 1px solid #CACACA;
+}
+
+.productc .buyz .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background:url(../image/sprite.png);
+	margin:10px 4px 0 3px;
+}
+
+.productc .buyz .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 10px;
+}
+
+.productc .explainz{
+	width: 250px;
+	height: 143px;
+	padding-top:15px;
+}
+
+.productc  .explainz .goodWife{
+	font-size: 14px;
+	padding: 0 0 0 10px;
+}
+
+.productc  .explainz .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.productc .explainz .money{
+	padding:23px 0 0 11px;
+}
+
+.productc .explainz .money span{
+	color: red;
+}
+.productc .explainz .money s{
+	text-decoration: line-through;
+}
+.productc .explainz .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+
+.productc .p_l_t_productr{
+	width: 350px;
+	height: 146px;
+}
+
+.productc  .buyr{
+	width: 99px;
+	height: 146px;
+}
+
+
+.productc .buyr .img{
+	height: 100px;	
+	border: 1px solid #CACACA;
+}
+
+.productc .buyr .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background:url(../image/dazhong.png);
+	margin:10px 4px 0 3px;
+}
+
+.productc .buyr .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0A84E3;
+	color: white;
+	margin-top: 10px;
+}
+
+.productc .explainr{
+	width: 250px;
+	height: 143px;
+	padding-top:15px;
+}
+
+.productc  .explainr .goodWife{
+	font-size: 14px;
+	padding: 0 0 0 10px;
+}
+
+.productc  .explainr .auto{
+	color: #863E01;
+	padding: 13px 0 0 15px;
+}
+.productc .explainr .money{
+	padding:23px 0 0 11px;
+}
+
+.productc .explainr .money span{
+	color: red;
+}
+.productc .explainr .money s{
+	text-decoration: line-through;
+}
+.productc .explainr .buyed{
+	font-size: 14px;
+	padding: 28px 0 0 11px;
+}
+.productc .product_rc{
+	width: 220px;
+	height: 345px;
+	background:#FFFFFF;
+	border:1px solid #E0E6F0;
+}
+
+.product_l_linec{
+	margin:0 4px 0 4px;
+	border-top: 1px solid #CCC;
+}
+
+.product_rc h2{
+	height:28px;
+	line-height: 28px;
+	padding-left:15px;
+	border-bottom: 1px solid #E0E6F0;
+}
+.product_rc ul{
+	padding-top: 11px;
+}
+.product_rc li{
+	line-height: 23px;
+	padding-left:26px;
+}
+
+
+.link{
+	width: 970px;
+	height: 103px;
+	margin: 0 auto;
+	margin-top:11px; 
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 3px solid #0A7EC3;
+	color: #666666;
+}
+
+.link_p1{
+	margin-top: 30px;
+}
+
+.link_p2{
+	margin-top: 14px;
+	margin-left: 61px;
+}
+
+.aboultMe{
+	height: 91px;
+	width: 970px;
+	margin:0 auto;
+}
+
+.aboultMe{
+	margin-top:14px; 
+	text-align: center;
+}
